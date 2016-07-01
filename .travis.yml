@@ -17,7 +17,7 @@ deploy:
   provider: releases
   api_key:
     secure: Gb7nQeeOZgWrT09bYZj0deJq7G7kRquLxr8iHXjWGf2Y8gPb/JzUA+34K3A/6ckJ+kpQwIf/a9DeImQtZCSz6nFh9R/6XvOtUZTLr47NyNu96zaCi/eAUPfdm8pG6VPlQ2s/mhvTeVMYANe4r8XHOATX/+LPATETPVb5G3xa5pd//8cMw7yEsR3u5cHd35hfaoyq+M0qKwTQJwLRczTi9sIEt5WOSbXkyoIFSFiZRwCP0iRoII5b+WHV3Lfiy8/LpH1t9lrJ1PhJLCwLQ/YGeYyqdpOK6hk2vtN0h8cNSt0VQ1zzzHPmhk/rzfRsf52q0zjbZZS7T6bJUB4A/F42iaOl5w2ppN0fnQEMOizuYr0aUP1C/zoLwjd8ETb4lgXAgbXvonqsDJAybxB1rFoXQ79rMDos8dM6NYzg9vlHQKJOJ3j1hBUujpW199ZYm7gDizqBVBBr9ExxD9hw6X0cqHWfEs0Q365ZXIJe0ygHyAxXRzukHtcAcB8ZqJK81qJY4T5oFIv++iHoC3BH8y/WMtcbSLp1Vple6hbv4POL6AqWFhoj2SdH8DZRaeNdydnU1OOjW9B0Iygo0nQaM7CzVwmdpnWPfUXwvsbNHnT+M4KzaeoOiBVgVi23vxX2mw+gSgpwVRL32xy1YLBgH8+vRxfUtDHLo3oHyiecDPTqVIg=
-  file: "${TRAVIS_BUILD_DIR}/cow"
+  file: "cow"
   on:
     repo: ltwell/cow
     branch: 'master'
