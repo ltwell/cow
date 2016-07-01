@@ -13,6 +13,8 @@ script:
   - go test -v
   - ./script/test.sh
   - popd
+  - pwd
+  - file ~/gopath/src/github.com/ltwell/cow/cow
 deploy:
   provider: releases
   api_key:
